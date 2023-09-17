@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "fullname": "cm",
+      "mobile": 208765457,
+      "email": "cm@gmail.com",
+      "password": "cm123"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "cm",
+      "email": "cm1@gmail.com",
+      "password": "123",
+      "mobile": 123456781,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "fullname": "cm",
+      "email": "cm@gmail.com",
+      "password": "cm1234",
+      "mobile": 123456,
+      "id": 2
+    },
+    {
+      "fullname": "a",
+      "email": "a@gmail.com",
+      "password": "123",
+      "mobile": 1,
+      "id": 3
+    },
+    {
+      "fullname": "qwe",
+      "email": "qwe@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 4
+    },
+    {
+      "fullname": "cm",
+      "email": "cm@gmail.com",
+      "password": "cm123",
+      "mobile": 7020874256,
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

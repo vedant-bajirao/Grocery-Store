@@ -1,0 +1,70 @@
+<body style="margin-top: 72px;"></body>
+  <div class="card m-1">
+    <div class="card-top">
+      <div class="card text-center parent d-flex flex-row">
+        <h3
+          style="
+            margin-left: 15px;
+            font-family: Roboto, Arial, sans-serif;
+            font-weight: 600;
+          "
+          class="p-1 bd-highlight"
+        >
+          RICE
+        </h3>
+        <button class="btn btn-primary ms-auto  bd-highlight" routerLink="../riceall">
+          View All
+        </button>
+      </div>
+    </div>
+
+  
+  <div class="container-fluid row">
+    <div
+    *ngFor="let item of items"
+      class="card card-border"
+      style="width: 15rem; height: 20rem; padding: 2px"
+    >
+      <img
+        src="{{item.img}}"
+        class="card-img-top img-style"
+      />
+      <div class="card-body">
+        <h5
+          class="card-title"
+          style="
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100ch;
+          "
+        >
+          {{item.title}}
+        </h5>
+        <p
+          class="card-text "
+          style="
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100ch;
+          "
+        >
+          {{item.description}}
+        </p>
+
+        <p
+          class="card-text form-text alig"
+          style="
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100ch;
+            text-align: center;
+          "
+        >
+        {{item.offers}}
+        </p>
+        
+      </div>
+    </div>

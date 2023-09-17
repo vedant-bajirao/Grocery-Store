@@ -1,0 +1,48 @@
+<body style="background-color: #f1f3f6">
+    <div style="margin-top: 50px">
+      <div class="container-fluid row">
+  
+        <div
+        *ngFor="let item of items | filter:searchKey:'title'"        
+          class="card card-border"
+          style="width: 15rem; height: 20rem; padding: 2px"
+        >
+          <img
+            src="{{item.img}}"
+            class="card-img-top img-style"
+          />
+          <div class="card-body">
+            <h5
+              class="card-title"
+              style="
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100ch;
+              "
+            >
+            <strong>Price :</strong>
+            <strong>₹</strong>
+            {{item.title}}
+            /-
+            </h5>
+            <p
+              class="card-text form-text"
+              style="
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100ch;
+              "
+            >
+            Rs.:
+             {{item.price}}
+            /-
+            <div class="d-grid gap-2">
+              <a class="btn btn-primary" (click)="addtocart(item)">Add To Cart</a>
+            </div>
+          </div>
+        </div>
+</div>
+</div>
+</body>  

@@ -1,0 +1,95 @@
+<div class="card-top container-fluid">
+  <div class="container d-flex">
+    <div class="card"
+    routerLink="../handwashall"
+    >
+      <div class="item">
+        <a
+          ><img
+            src="https://thumbs.dreamstime.com/z/girl-her-mother-washing-hands-cute-little-their-protection-against-infections-viruses-185213037.jpg"
+            alt="handwash"
+          />
+          <h6 style="text-align: center">Handwash</h6></a
+        >
+      </div>
+    </div>
+    <div class="card"
+      routerLink="../soapall"
+    >
+      <div class="item">
+        <a
+          ><img
+            src="https://www.insidehook.com/wp-content/uploads/2020/03/Washing-Hands-With-a-Bar-of-Soap.jpg?resize=1200,800"
+            alt="soap"
+          />
+          <h6 style="text-align: center">Soap</h6></a
+        >
+      </div>
+    </div>
+    <div class="card"
+    routerLink="../riceall"
+    >
+      <div class="item">
+        <a
+          ><img
+            src="https://4.bp.blogspot.com/_kaDaaPrOEno/S6hXwNL5zPI/AAAAAAAAAJc/mAkTIEEJvjQ/s400/beras.jpg"
+            alt="rice"
+          />
+          <h6 style="text-align: center">Rice</h6></a
+        >
+      </div>
+    </div>
+    <div class="card"
+      routerLink="../jamall"
+    >
+      <div class="item">
+        <a
+          ><img
+            src="https://i0.wp.com/marrowholistichealth.com/wp-content/uploads/2019/09/fermentedketchup.ACV_.jpg?w=857&ssl=1"
+            alt="soap"
+          />
+          <h6 style="text-align: center">Jam</h6></a
+        >
+      </div>
+    </div>
+    <div class="card"
+      routerLink="../biscuitall"
+    >
+      <div class="item">
+        <a
+          ><img
+            src="https://th.bing.com/th/id/OIP.ELrRZHSzUk_JhUbBgQd4RQHaE8?pid=ImgDet&rs=1"
+            alt="Biscuit"
+          />
+          <h6 style="text-align: center">Biscuit</h6></a
+        >
+      </div>
+    </div>
+    <div class="card" routerLink="../colddrinksall">
+      <div class="item">
+        <a
+          ><img
+            src="https://cdn.cdnparenting.com/articles/2018/07/361921454-H.jpg"
+            alt="soap"
+          />
+          <h6 style="text-align: center">ColdDrinks</h6></a
+        >
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<app-carousel></app-carousel>
+
+<div
+*ngFor="let item of items | filter:searchKey:'title'">
+<!-- All Products Here Start -->
+<app-handwash></app-handwash>
+<app-soap></app-soap>
+<app-rice></app-rice>
+<app-jam></app-jam>
+<app-biscuit></app-biscuit>
+<app-colddrinks></app-colddrinks>
+<!-- All Products Here End -->
+</div>

@@ -1,0 +1,22 @@
+/* .parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.parent button{
+    margin-left: 960px;
+} */
+.card-border{
+    border: none;
+}
+
+.card-border img:hover{
+    cursor: pointer;
+    
+}
+
+.img-style{height: 178px; width:192px; align-items: center}
+
+img, h5 {
+    margin-left: 23px;
+}

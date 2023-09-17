@@ -1,0 +1,12 @@
+.hight-width{
+    position: relative;
+    margin-top: 15px;  
+    height: 420px; 
+    width: 100%;   
+}
+
+button span{
+    background-color: rgba(3, 3, 3, 0.56);
+    padding: 30px;
+    border-radius: 50%;
+}

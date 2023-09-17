@@ -1,0 +1,23 @@
+p {
+  /* width: 600px; */
+  width: 800px;
+  padding: 10px;
+  font-family: "Robot";
+  font-size: large;
+  text-align: center;
+  margin: 0% 30% 0% 20%;
+
+}
+
+h1{
+  font-family: "Times New Roman";
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0.288);
+}
+
+footer{
+  color: white;
+  background-color: black;
+}

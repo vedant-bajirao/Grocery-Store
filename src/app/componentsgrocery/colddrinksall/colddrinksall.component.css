@@ -1,0 +1,33 @@
+body{
+    margin-top: 60px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.parent button {
+  margin-left: 960px;
+}
+
+.card-border {
+  /* border: none; */
+  margin: 10px 20px 10px 114px;
+  padding: 10px;
+}
+
+.card-border img:hover {
+  cursor: pointer;
+}
+
+.img-style {
+  height: 178px;
+  width: 192px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+/* .style-card{
+    width: 17rem; height: 20rem; padding: 2px
+} */
